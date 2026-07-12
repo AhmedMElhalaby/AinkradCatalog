@@ -14,7 +14,9 @@
       "author": "Ahmed M. Elhalaby",
       "longDescription": "Terminal brings a full, native command line into your Ainkrad workspace — built on a SwiftTerm-backed emulator, not a web view.\n\n• Command blocks — each command and its output is a distinct, scrollable block you can navigate, re-run, and reason about, instead of one endless stream.\n• Theme-matched — colors are driven by the host's DesignTokens, so the terminal always matches your active Ainkrad theme; switch themes and it restyles instantly without losing scrollback.\n• Real emulation — a proper PTY underneath: interactive programs, colors, resizing, and control sequences all work as expected.\n• Fits the workspace — open it as a floating island, resize freely, and run several alongside your other apps.\n\nDesigned to feel like part of the OS surface — seamless chrome, no separator lines, traffic-lights inside the window.",
       "screenshots": [
-        "https://raw.githubusercontent.com/AhmedMElhalaby/AinkradCatalog/main/screenshots/terminal-1.png"
+        "https://raw.githubusercontent.com/AhmedMElhalaby/AinkradCatalog/main/screenshots/terminal-blocks.png",
+        "https://raw.githubusercontent.com/AhmedMElhalaby/AinkradCatalog/main/screenshots/terminal-1.png",
+        "https://raw.githubusercontent.com/AhmedMElhalaby/AinkradCatalog/main/screenshots/terminal-ambient.png"
       ],
       "links": [
         { "title": "Source", "url": "https://github.com/AhmedMElhalaby/AinkradTerminal" }
@@ -32,7 +34,13 @@
       "sourceRepo": "AhmedMElhalaby/GitMage",
       "author": "Ahmed M. Elhalaby",
       "longDescription": "Git Mage is a complete Git workspace for Ainkrad, wrapped in a gaming-HUD interface that feels like part of the OS.\n\nWorkspace\n• Multi-repo library — add as many repositories as you like and switch between them (GitHub-Desktop style), each remembering its own state.\n• Three-pane shell — a nav rail into Changes, History, Stashes, Pull Requests, Issues, Worktrees and Advanced, with full-surface repo and branch management overlays.\n\nEveryday Git\n• Changes — stage/unstage/discard by file or all at once, with a live commit box.\n• History — paginated commit log that loads as you scroll, with a git-graph rail.\n• Branches & Stashes — create, checkout, delete; stash push/pop/apply/drop with per-stash diffs.\n\nReview\n• GitHub-style diff viewer — syntax highlighting, line-number gutter, background-only add/remove tints, and collapsible per-file diffs shared across Changes, History, Stashes and PRs.\n• Interactive worktree commit graph — a real multi-lane branch/merge graph; click any commit to inspect its diff.\n\nGitHub\n• Pull Requests & Issues — search, label filters and pagination via the GitHub API; Conversation / Commits / Files tabs; markdown descriptions and comments; review, merge, comment, close/reopen, labels and assignees.\n\nAdvanced\n• Cherry-pick, revert, reset, rebase and tag management — contextual to the commit you select, with confirm-gated destructive ops.\n\nMade yours\n• Configurable keyboard shortcuts for every action and area, and a configurable typography theme (font family + size) applied live across the whole app.",
-      "screenshots": [],
+      "screenshots": [
+        "https://raw.githubusercontent.com/AhmedMElhalaby/AinkradCatalog/main/screenshots/gitmage-changes-diff.png",
+        "https://raw.githubusercontent.com/AhmedMElhalaby/AinkradCatalog/main/screenshots/gitmage-worktree-graph.png",
+        "https://raw.githubusercontent.com/AhmedMElhalaby/AinkradCatalog/main/screenshots/gitmage-pull-request.png",
+        "https://raw.githubusercontent.com/AhmedMElhalaby/AinkradCatalog/main/screenshots/gitmage-repo-switcher.png",
+        "https://raw.githubusercontent.com/AhmedMElhalaby/AinkradCatalog/main/screenshots/gitmage-branches.png"
+      ],
       "links": [
         { "title": "Source", "url": "https://github.com/AhmedMElhalaby/GitMage" },
         { "title": "Release notes", "url": "https://github.com/AhmedMElhalaby/GitMage/releases/tag/v0.2.0" }
