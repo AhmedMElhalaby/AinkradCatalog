@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "apps": [
+    {
+      "appID": "terminal",
+      "displayName": "Terminal",
+      "icon": "terminal",
+      "description": "A terminal for Ainkrad — blocks, themes, SwiftTerm-backed.",
+      "version": "v0.1.3",
+      "apiVersion": 1,
+      "downloadURL": "https://github.com/AhmedMElhalaby/AinkradTerminal/releases/download/v0.1.3/terminal.bundle.zip",
+      "sha256": "73b5feef05a9f56f01c414d114201674f4a2b9dcca4b7737e462e4fdcb00734a",
+      "sourceRepo": "AhmedMElhalaby/AinkradTerminal",
+      "author": "Ahmed M. Elhalaby",
+      "longDescription": "AinkradTerminal brings a full terminal into Ainkrad's workspace: block-based command history, theme-matched colors driven by the host's DesignTokens, and a SwiftTerm-backed emulator underneath. Split panes, resize freely, and switch themes without losing your scroll history.",
+      "screenshots": [
+        "https://raw.githubusercontent.com/AhmedMElhalaby/AinkradCatalog/main/screenshots/terminal-1.png"
+      ],
+      "links": []
+    },
+    {
+      "appID": "gitmage",
+      "displayName": "Git Mage",
+      "icon": "wand.and.stars",
+      "description": "A HUD Git IDE for Ainkrad — changes, history, branches, PRs, issues, worktrees.",
+      "version": "v0.2.0",
+      "apiVersion": 1,
+      "downloadURL": "https://github.com/AhmedMElhalaby/GitMage/releases/download/v0.2.0/gitmage.bundle.zip",
+      "sha256": "b4d4910b95e008210789415074243b7eb7502becfa51cc60279f53b9856ec2e3",
+      "sourceRepo": "AhmedMElhalaby/GitMage",
+      "author": "Ahmed M. Elhalaby",
+      "longDescription": "Git Mage is a full Git workspace for Ainkrad in a gaming-HUD interface: a multi-repo library, a three-pane shell over Changes, History, Stashes, Pull Requests, Issues, Worktrees and Advanced ops, plus branch/repo management overlays. Review changes with a GitHub-style syntax-highlighted diff viewer, browse an interactive worktree commit graph, manage PRs and issues with search, label filters and markdown, and drive everything from configurable keyboard shortcuts with a configurable typography theme.",
+      "screenshots": [],
+      "links": []
+    }
+  ]
+}
