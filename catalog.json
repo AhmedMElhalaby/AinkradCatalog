@@ -6,10 +6,10 @@
       "displayName": "Terminal",
       "icon": "terminal",
       "description": "A native terminal for Ainkrad — command blocks, theme-matched colors, SwiftTerm-backed.",
-      "version": "v0.1.3",
-      "apiVersion": 1,
-      "downloadURL": "https://github.com/AhmedMElhalaby/AinkradTerminal/releases/download/v0.1.3/terminal.bundle.zip",
-      "sha256": "73b5feef05a9f56f01c414d114201674f4a2b9dcca4b7737e462e4fdcb00734a",
+      "version": "v0.2.0",
+      "apiVersion": 2,
+      "downloadURL": "https://github.com/AhmedMElhalaby/AinkradTerminal/releases/download/v0.2.0/terminal.bundle.zip",
+      "sha256": "7cf8504405c23959b50bd6bc2367f66bdaee26fd8f41ea6c7a96631412837266",
       "sourceRepo": "AhmedMElhalaby/AinkradTerminal",
       "author": "Ahmed M. Elhalaby",
       "longDescription": "Terminal brings a full, native command line into your Ainkrad workspace — built on a SwiftTerm-backed emulator, not a web view.\n\n• Command blocks — each command and its output is a distinct, scrollable block you can navigate, re-run, and reason about, instead of one endless stream.\n• Theme-matched — colors are driven by the host's DesignTokens, so the terminal always matches your active Ainkrad theme; switch themes and it restyles instantly without losing scrollback.\n• Real emulation — a proper PTY underneath: interactive programs, colors, resizing, and control sequences all work as expected.\n• Fits the workspace — open it as a floating island, resize freely, and run several alongside your other apps.\n\nDesigned to feel like part of the OS surface — seamless chrome, no separator lines, traffic-lights inside the window.",
@@ -27,10 +27,10 @@
       "displayName": "Git Mage",
       "icon": "wand.and.stars",
       "description": "A full HUD Git IDE for Ainkrad — changes, history, branches, PRs, issues, worktrees, and an interactive commit graph.",
-      "version": "v0.2.0",
-      "apiVersion": 1,
-      "downloadURL": "https://github.com/AhmedMElhalaby/GitMage/releases/download/v0.2.0/gitmage.bundle.zip",
-      "sha256": "b4d4910b95e008210789415074243b7eb7502becfa51cc60279f53b9856ec2e3",
+      "version": "v0.3.0",
+      "apiVersion": 2,
+      "downloadURL": "https://github.com/AhmedMElhalaby/GitMage/releases/download/v0.3.0/gitmage.bundle.zip",
+      "sha256": "504366115bf6dd9b9defecf516cf1eaf1c3d9fd7db90e9fd69e6622ead050771",
       "sourceRepo": "AhmedMElhalaby/GitMage",
       "author": "Ahmed M. Elhalaby",
       "longDescription": "Git Mage is a complete Git workspace for Ainkrad, wrapped in a gaming-HUD interface that feels like part of the OS.\n\nWorkspace\n• Multi-repo library — add as many repositories as you like and switch between them (GitHub-Desktop style), each remembering its own state.\n• Three-pane shell — a nav rail into Changes, History, Stashes, Pull Requests, Issues, Worktrees and Advanced, with full-surface repo and branch management overlays.\n\nEveryday Git\n• Changes — stage/unstage/discard by file or all at once, with a live commit box.\n• History — paginated commit log that loads as you scroll, with a git-graph rail.\n• Branches & Stashes — create, checkout, delete; stash push/pop/apply/drop with per-stash diffs.\n\nReview\n• GitHub-style diff viewer — syntax highlighting, line-number gutter, background-only add/remove tints, and collapsible per-file diffs shared across Changes, History, Stashes and PRs.\n• Interactive worktree commit graph — a real multi-lane branch/merge graph; click any commit to inspect its diff.\n\nGitHub\n• Pull Requests & Issues — search, label filters and pagination via the GitHub API; Conversation / Commits / Files tabs; markdown descriptions and comments; review, merge, comment, close/reopen, labels and assignees.\n\nAdvanced\n• Cherry-pick, revert, reset, rebase and tag management — contextual to the commit you select, with confirm-gated destructive ops.\n\nMade yours\n• Configurable keyboard shortcuts for every action and area, and a configurable typography theme (font family + size) applied live across the whole app.",
@@ -43,7 +43,7 @@
       ],
       "links": [
         { "title": "Source", "url": "https://github.com/AhmedMElhalaby/GitMage" },
-        { "title": "Release notes", "url": "https://github.com/AhmedMElhalaby/GitMage/releases/tag/v0.2.0" }
+        { "title": "Release notes", "url": "https://github.com/AhmedMElhalaby/GitMage/releases/tag/v0.3.0" }
       ]
     }
   ]
