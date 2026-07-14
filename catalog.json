@@ -19,7 +19,10 @@
         "https://raw.githubusercontent.com/AhmedMElhalaby/AinkradCatalog/main/screenshots/terminal-ambient.png"
       ],
       "links": [
-        { "title": "Source", "url": "https://github.com/AhmedMElhalaby/AinkradTerminal" }
+        {
+          "title": "Source",
+          "url": "https://github.com/AhmedMElhalaby/AinkradTerminal"
+        }
       ]
     },
     {
@@ -42,8 +45,37 @@
         "https://raw.githubusercontent.com/AhmedMElhalaby/AinkradCatalog/main/screenshots/gitmage-branches.png"
       ],
       "links": [
-        { "title": "Source", "url": "https://github.com/AhmedMElhalaby/GitMage" },
-        { "title": "Release notes", "url": "https://github.com/AhmedMElhalaby/GitMage/releases/tag/v0.4.0" }
+        {
+          "title": "Source",
+          "url": "https://github.com/AhmedMElhalaby/GitMage"
+        },
+        {
+          "title": "Release notes",
+          "url": "https://github.com/AhmedMElhalaby/GitMage/releases/tag/v0.4.0"
+        }
+      ]
+    },
+    {
+      "appID": "leyline",
+      "displayName": "Leyline",
+      "icon": "point.3.connected.trianglepath.dotted",
+      "description": "Save your SSH connections and keys, and copy the ssh command in a click — a Termius-style hub for Ainkrad.",
+      "version": "v0.1.0",
+      "apiVersion": 3,
+      "downloadURL": "https://github.com/AhmedMElhalaby/AinkradLeyline/releases/download/v0.1.0/leyline.bundle.zip",
+      "sha256": "99189c7e23ad0444fa478ba39bc9bd28a7c69c6682be57512c95f0a8dfdeb1d1",
+      "sourceRepo": "AhmedMElhalaby/AinkradLeyline",
+      "author": "Ahmed M. Elhalaby",
+      "longDescription": "Leyline is a home for your SSH connections and keys inside Ainkrad.\n\n• Connections — save your hosts (label, host, port, username) in a flat, type-to-filter list, with password or key authentication.\n• Key vault — import SSH private keys by file or paste, with an optional passphrase; keys are stored in the macOS Keychain and reused across connections.\n• Copy ssh command — one click copies the exact ssh invocation for a connection, ready to paste into any terminal.\n\nYour secrets stay safe: passwords, private-key material and passphrases live only in the Keychain, never in the saved connection metadata.\n\nOn the roadmap: one-click connect that opens the session directly in the Ainkrad Terminal, and a summonable overlay so your hosts are always a keystroke away.",
+      "links": [
+        {
+          "title": "Source",
+          "url": "https://github.com/AhmedMElhalaby/AinkradLeyline"
+        },
+        {
+          "title": "Release notes",
+          "url": "https://github.com/AhmedMElhalaby/AinkradLeyline/releases/tag/v0.1.0"
+        }
       ]
     }
   ]
