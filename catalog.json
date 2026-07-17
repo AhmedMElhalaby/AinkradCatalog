@@ -6,10 +6,10 @@
       "displayName": "Terminal",
       "icon": "terminal",
       "description": "A native terminal for Ainkrad \u2014 command blocks, theme-matched colors, SwiftTerm-backed.",
-      "version": "v0.4.0",
-      "apiVersion": 4,
-      "downloadURL": "https://github.com/AhmedMElhalaby/AinkradTerminal/releases/download/v0.4.0/terminal.bundle.zip",
-      "sha256": "d79afd4e37c700de27ae7ee1bf42095c6fc5fc1e609a7776f232614c8acf7ceb",
+      "version": "v0.5.0",
+      "apiVersion": 6,
+      "downloadURL": "https://github.com/AhmedMElhalaby/AinkradTerminal/releases/download/v0.5.0/terminal.bundle.zip",
+      "sha256": "85b4f31c8dcb1b83b1b4838c9f2ddb369d9d4029dba5592485c8f3bde0cf2276",
       "sourceRepo": "AhmedMElhalaby/AinkradTerminal",
       "author": "Ahmed M. Elhalaby",
       "longDescription": "Terminal brings a full, native command line into your Ainkrad workspace \u2014 built on a SwiftTerm-backed emulator, not a web view.\n\n\u2022 Command blocks \u2014 each command and its output is a distinct, scrollable block you can navigate, re-run, and reason about, instead of one endless stream.\n\u2022 Theme-matched \u2014 colors are driven by the host's DesignTokens, so the terminal always matches your active Ainkrad theme; switch themes and it restyles instantly without losing scrollback.\n\u2022 Real emulation \u2014 a proper PTY underneath: interactive programs, colors, resizing, and control sequences all work as expected.\n\u2022 Fits the workspace \u2014 open it as a floating island, resize freely, and run several alongside your other apps.\n\nDesigned to feel like part of the OS surface \u2014 seamless chrome, no separator lines, traffic-lights inside the window.",
@@ -30,10 +30,10 @@
       "displayName": "Git Mage",
       "icon": "wand.and.stars",
       "description": "A full HUD Git IDE for Ainkrad \u2014 changes, history, branches, PRs, issues, worktrees, and an interactive commit graph.",
-      "version": "v0.5.0",
-      "apiVersion": 4,
-      "downloadURL": "https://github.com/AhmedMElhalaby/GitMage/releases/download/v0.5.0/gitmage.bundle.zip",
-      "sha256": "6ee9a8ffaed0251a7dbc23ecc42ebb71e82dc95e820d245d85d7e9b427786c6e",
+      "version": "v0.6.0",
+      "apiVersion": 6,
+      "downloadURL": "https://github.com/AhmedMElhalaby/GitMage/releases/download/v0.6.0/gitmage.bundle.zip",
+      "sha256": "1a8375395787e13950d1efcf8be1549c6cf360faafb5e23aece82bdcf3023c4e",
       "sourceRepo": "AhmedMElhalaby/GitMage",
       "author": "Ahmed M. Elhalaby",
       "longDescription": "Git Mage is a complete Git workspace for Ainkrad, wrapped in a gaming-HUD interface that feels like part of the OS.\n\nWorkspace\n\u2022 Multi-repo library \u2014 add as many repositories as you like and switch between them (GitHub-Desktop style), each remembering its own state.\n\u2022 Three-pane shell \u2014 a nav rail into Changes, History, Stashes, Pull Requests, Issues, Worktrees and Advanced, with full-surface repo and branch management overlays.\n\nEveryday Git\n\u2022 Changes \u2014 stage/unstage/discard by file or all at once, with a live commit box.\n\u2022 History \u2014 paginated commit log that loads as you scroll, with a git-graph rail.\n\u2022 Branches & Stashes \u2014 create, checkout, delete; stash push/pop/apply/drop with per-stash diffs.\n\nReview\n\u2022 GitHub-style diff viewer \u2014 syntax highlighting, line-number gutter, background-only add/remove tints, and collapsible per-file diffs shared across Changes, History, Stashes and PRs.\n\u2022 Interactive worktree commit graph \u2014 a real multi-lane branch/merge graph; click any commit to inspect its diff.\n\nGitHub\n\u2022 Pull Requests & Issues \u2014 search, label filters and pagination via the GitHub API; Conversation / Commits / Files tabs; markdown descriptions and comments; review, merge, comment, close/reopen, labels and assignees.\n\nAdvanced\n\u2022 Cherry-pick, revert, reset, rebase and tag management \u2014 contextual to the commit you select, with confirm-gated destructive ops.\n\nMade yours\n\u2022 Configurable keyboard shortcuts for every action and area, and a configurable typography theme (font family + size) applied live across the whole app.",
@@ -51,7 +51,7 @@
         },
         {
           "title": "Release notes",
-          "url": "https://github.com/AhmedMElhalaby/GitMage/releases/tag/v0.4.0"
+          "url": "https://github.com/AhmedMElhalaby/GitMage/releases/tag/v0.6.0"
         }
       ]
     },
@@ -60,10 +60,10 @@
       "displayName": "Leyline",
       "icon": "point.3.connected.trianglepath.dotted",
       "description": "Save SSH connections and keys, open a session in one click, and summon it as an overlay \u2014 a Termius-style hub for Ainkrad.",
-      "version": "v0.3.0",
-      "apiVersion": 5,
-      "downloadURL": "https://github.com/AhmedMElhalaby/AinkradLeyline/releases/download/v0.3.0/leyline.bundle.zip",
-      "sha256": "b03c5a9c7b6427f6f441a34a1ff73d57d4f0b6a9d229fe77f7cfad20a8b11105",
+      "version": "v0.4.0",
+      "apiVersion": 6,
+      "downloadURL": "https://github.com/AhmedMElhalaby/AinkradLeyline/releases/download/v0.4.0/leyline.bundle.zip",
+      "sha256": "8f015ac48e4a830341489a82c4791dc49203b6c86823d27a8d50f19f9223ca8a",
       "sourceRepo": "AhmedMElhalaby/AinkradLeyline",
       "author": "Ahmed M. Elhalaby",
       "longDescription": "Leyline is a home for your SSH connections and keys inside Ainkrad, summoned as a floating HUD overlay.\n\n\u2022 Connections \u2014 save your hosts (label, host, port, username) in a flat, type-to-filter list, with password or key authentication.\n\u2022 Key vault \u2014 import SSH private keys by file or paste, with an optional passphrase; keys are stored in the macOS Keychain and reused across connections.\n\u2022 One-click connect \u2014 pick a connection and it opens a live session in the Ainkrad Terminal over ssh; copy the ssh command any time.\n\u2022 Overlay \u2014 summon Leyline as a floating HUD over your workspace, styled to match your active theme.\n\nYour secrets stay safe: passwords, private-key material and passphrases live only in the macOS Keychain, never in the saved connection metadata.",
@@ -74,7 +74,7 @@
         },
         {
           "title": "Release notes",
-          "url": "https://github.com/AhmedMElhalaby/AinkradLeyline/releases/tag/v0.1.0"
+          "url": "https://github.com/AhmedMElhalaby/AinkradLeyline/releases/tag/v0.4.0"
         }
       ]
     }
