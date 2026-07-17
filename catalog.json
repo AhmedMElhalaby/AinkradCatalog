@@ -30,10 +30,10 @@
       "displayName": "Git Mage",
       "icon": "wand.and.stars",
       "description": "A full HUD Git IDE for Ainkrad \u2014 changes, history, branches, PRs, issues, worktrees, and an interactive commit graph.",
-      "version": "v0.8.0",
+      "version": "v0.8.1",
       "apiVersion": 6,
-      "downloadURL": "https://github.com/AhmedMElhalaby/GitMage/releases/download/v0.8.0/gitmage.bundle.zip",
-      "sha256": "d53e9a6c628cf70ffb79d689d0e19271d07353d6995d0aae988b9df37e40a2c7",
+      "downloadURL": "https://github.com/AhmedMElhalaby/GitMage/releases/download/v0.8.1/gitmage.bundle.zip",
+      "sha256": "f1f649e30ab34f8534f002a04d5f66464a4f7eb96517553a35c62615a272ada2",
       "sourceRepo": "AhmedMElhalaby/GitMage",
       "author": "Ahmed M. Elhalaby",
       "longDescription": "Git Mage is a complete Git workspace for Ainkrad, wrapped in a gaming-HUD interface that feels like part of the OS.\n\nWorkspace\n\u2022 Multi-repo library \u2014 add as many repositories as you like and switch between them (GitHub-Desktop style), each remembering its own state.\n\u2022 Three-pane shell \u2014 a nav rail into Changes, History, Stashes, Pull Requests, Issues, Worktrees and Advanced, with full-surface repo and branch management overlays.\n\nEveryday Git\n\u2022 Changes \u2014 stage/unstage/discard by file or all at once, with a live commit box.\n\u2022 History \u2014 paginated commit log that loads as you scroll, with a git-graph rail.\n\u2022 Branches & Stashes \u2014 create, checkout, delete; stash push/pop/apply/drop with per-stash diffs.\n\nReview\n\u2022 GitHub-style diff viewer \u2014 syntax highlighting, line-number gutter, background-only add/remove tints, and collapsible per-file diffs shared across Changes, History, Stashes and PRs.\n\u2022 Interactive worktree commit graph \u2014 a real multi-lane branch/merge graph; click any commit to inspect its diff.\n\nGitHub\n\u2022 Pull Requests & Issues \u2014 search, label filters and pagination via the GitHub API; Conversation / Commits / Files tabs; markdown descriptions and comments; review, merge, comment, close/reopen, labels and assignees.\n\nAdvanced\n\u2022 Cherry-pick, revert, reset, rebase and tag management \u2014 contextual to the commit you select, with confirm-gated destructive ops.\n\nMade yours\n\u2022 Configurable keyboard shortcuts for every action and area, and a configurable typography theme (font family + size) applied live across the whole app.",
@@ -51,7 +51,7 @@
         },
         {
           "title": "Release notes",
-          "url": "https://github.com/AhmedMElhalaby/GitMage/releases/tag/v0.8.0"
+          "url": "https://github.com/AhmedMElhalaby/GitMage/releases/tag/v0.8.1"
         }
       ]
     },
