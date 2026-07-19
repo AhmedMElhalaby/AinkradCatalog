@@ -77,6 +77,29 @@
           "url": "https://github.com/AhmedMElhalaby/AinkradLeyline/releases/tag/v0.4.5"
         }
       ]
+    },
+    {
+      "appID": "lore",
+      "displayName": "Lore",
+      "icon": "book.closed",
+      "description": "Markdown-native notes for Ainkrad — a folder of .md files, full-text search, quick capture, and a live-preview editor.",
+      "version": "v0.1.0",
+      "apiVersion": 6,
+      "downloadURL": "https://github.com/AhmedMElhalaby/AinkradLore/releases/download/v0.1.0/lore.bundle.zip",
+      "sha256": "1152126d201cee2e09482d238f2bad0805e5da30356c1413de0caea8096b69cd",
+      "sourceRepo": "AhmedMElhalaby/AinkradLore",
+      "author": "Ahmed M. Elhalaby",
+      "longDescription": "Lore is a markdown-native notes workspace for Ainkrad. Your notes are plain .md files in a folder you choose — nothing is locked in a database, and the files stay yours.\n\n• Files are the source of truth — every note is a .md file with YAML frontmatter (id, title, tags, dates); edit them here or in any other editor and Lore reconciles.\n• Instant search — a local SQLite/FTS5 index mirrors your folder for fast full-text search across titles and bodies, rebuildable at any time.\n• Quick capture — press ⌘N to open a fresh note focused for typing, saved to disk immediately; the fast path for fleeting thoughts.\n• Live-preview editor — a native TextKit 2 editor styles markdown in place as you type: headings, bold/italic, inline code, links, and checkboxes.\n• Stays in sync — an external change to an open note surfaces a non-destructive reload prompt, so edits from other tools never clobber your work.\n• Theme-matched — colors come from the host's design tokens, so Lore restyles instantly with your active Ainkrad theme; seamless chrome, no separator lines.\n\nThis is the Phase 1 foundation — fast capture and search over a folder of markdown. Linked notes, backlinks, a graph, and structured blocks are on the roadmap.",
+      "links": [
+        {
+          "title": "Source",
+          "url": "https://github.com/AhmedMElhalaby/AinkradLore"
+        },
+        {
+          "title": "Release notes",
+          "url": "https://github.com/AhmedMElhalaby/AinkradLore/releases/tag/v0.1.0"
+        }
+      ]
     }
   ]
 }
